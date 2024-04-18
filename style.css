@@ -1,0 +1,67 @@
+/* CSS file: style.css */
+
+/* Styling the body */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 255, 0, 0.5);
+    transform: rotateY(-10deg);
+}
+
+/* Styling the title */
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff00ff;
+}
+
+/* Styling the tabs */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #00ff00;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab.active {
+    background-color:  #ff00ff;
+  color:white;
+}
+
+/* Styling the content sections */
+.content {
+    display: none;
+}
+
+/* Styling the links */
+.link {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Hover effect for links */
+.link:hover {
+    color: #ff00ff;
+}

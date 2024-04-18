@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study Materials</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Study Materials ICSE X</h1>
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('pdf')">PDF Notes</button>
+            <button class="tab" onclick="showTab('questions')">Questions</button>
+            <button class="tab" onclick="showTab('solutions')">Solutions</button>
+            <button class="tab" onclick="showTab('videos')">Videos</button>
+            <button class="tab" onclick="showTab('images')">Images</button>
+        </div>
+        <div class="content" id="pdf">
+            <h2>PDF Notes</h2>
+            <a href="pdf_notes.pdf" class="link">Download PDF</a>
+        </div>
+        <div class="content" id="questions" style="display: none;">
+            <h2>Questions</h2>
+            <a href="questions.pdf" class="link">Download Questions</a>
+        </div>
+        <div class="content" id="solutions" style="display: none;">
+            <h2>Solutions</h2>
+            <a href="solutions.pdf" class="link">Download Solutions</a>
+        </div>
+        <div class="content" id="videos" style="display: none;">
+            <h2>Videos</h2>
+            <a href="videos.html" class="link">Watch Videos</a>
+        </div>
+        <div class="content" id="images" style="display: none;">
+            <h2>Images</h2>
+            <a href="images.html" class="link">View Images</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
