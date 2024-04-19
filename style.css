@@ -5,38 +5,64 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    text-align: center;
 }
 
 /* Styling the container */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    border: 2px solid #00ff00;
+    border: 2px solid #1F51FF; /* Neon blue border */
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 255, 0, 0.5);
-    transform: rotateY(-10deg);
+    box-shadow: 10px 10px 20px rgba(31, 81, 255, 0.5);
 }
 
 /* Styling the title */
 .title {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #ff00ff;
+    color: #1F51FF; /* Neon blue */
+    text-align: center;
 }
 
-/* Styling the tabs */
+/* Styling the main tabs */
+.main-tabs {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-tab {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    color: #1F51FF; /* Neon blue */
+    background-color: #F8F8FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-tab.active {
+    background-color: #1F51FF; /* Neon blue */
+    color: white;
+}
+
+/* Styling the sub-tabs */
 .tabs {
     margin-bottom: 20px;
+  text-align: center; /* Centering the sub-tabs */
+  
 }
 
 .tab {
     display: inline-block;
     padding: 10px 20px;
     margin: 0 5px;
-    color: #00ff00;
-    background-color: #333;
+    font-weight: bold;
+    color: #1F51FF; /* Neon blue */
+    background-color: #F8F8FF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -44,8 +70,8 @@ body {
 }
 
 .tab.active {
-    background-color:  #ff00ff;
-  color:white;
+    background-color: #1F51FF; /* Neon blue */
+    color: white;
 }
 
 /* Styling the content sections */
@@ -53,15 +79,20 @@ body {
     display: none;
 }
 
+#maths .content, #physics .content {
+    display: block;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
 /* Styling the links */
 .link {
-    color: #00ff00;
+    color: #1F51FF; /* Neon blue */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-/* Hover effect for links */
 .link:hover {
-    color: #ff00ff;
+    color: #ffffff; /* White */
 }
