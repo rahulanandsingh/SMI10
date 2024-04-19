@@ -6,33 +6,68 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Study Materials ICSE X</h1>
-        <div class="tabs">
-            <button class="tab active" onclick="showTab('pdf')">PDF Notes</button>
-            <button class="tab" onclick="showTab('questions')">Questions</button>
-            <button class="tab" onclick="showTab('solutions')">Solutions</button>
-            <button class="tab" onclick="showTab('videos')">Videos</button>
-            <button class="tab" onclick="showTab('images')">Images</button>
+        <h1 class="title">Study Materials  ICSE X</h1>
+        <div class="main-tabs">
+            <button class="main-tab active" onclick="showMainTab('maths')">Maths</button>
+            <button class="main-tab" onclick="showMainTab('physics')">Physics</button>
         </div>
-        <div class="content" id="pdf">
-            <h2>PDF Notes</h2>
-            <a href="pdf_notes.pdf" class="link">Download PDF</a>
+        <div id="maths" class="subject-content" style="display: block;">
+            <div class="tabs">
+                <button class="tab active" onclick="showSubTab('maths', 'pdf')">PDF Notes</button>
+                <button class="tab" onclick="showSubTab('maths', 'questions')">Questions</button>
+                <button class="tab" onclick="showSubTab('maths', 'solutions')">Solutions</button>
+                <button class="tab" onclick="showSubTab('maths', 'videos')">Videos</button>
+                <button class="tab" onclick="showSubTab('maths', 'images')">Images</button>
+            </div>
+            <div class="content" id="maths_pdf">
+                <h2>PDF Notes</h2>
+                <a href="maths_pdf_notes.pdf" class="link" target="_blank">Download PDF</a>
+            </div>
+            <div class="content" id="maths_questions" style="display: none;">
+                <h2>Questions</h2>
+                <a href="maths_questions.pdf" class="link" target="_blank">Download Questions</a>
+            </div>
+            <div class="content" id="maths_solutions" style="display: none;">
+                <h2>Solutions</h2>
+                <a href="maths_solutions.pdf" class="link" target="_blank">Download Solutions</a>
+            </div>
+            <div class="content" id="maths_videos" style="display: none;">
+                <h2>Videos</h2>
+                <a href="maths_videos.html" class="link" target="_blank">Watch Videos</a>
+            </div>
+            <div class="content" id="maths_images" style="display: none;">
+                <h2>Images</h2>
+                <a href="maths_images.html" class="link" target="_blank">View Images</a>
+            </div>
         </div>
-        <div class="content" id="questions" style="display: none;">
-            <h2>Questions</h2>
-            <a href="questions.pdf" class="link">Download Questions</a>
-        </div>
-        <div class="content" id="solutions" style="display: none;">
-            <h2>Solutions</h2>
-            <a href="solutions.pdf" class="link">Download Solutions</a>
-        </div>
-        <div class="content" id="videos" style="display: none;">
-            <h2>Videos</h2>
-            <a href="videos.html" class="link">Watch Videos</a>
-        </div>
-        <div class="content" id="images" style="display: none;">
-            <h2>Images</h2>
-            <a href="images.html" class="link">View Images</a>
+        <div id="physics" class="subject-content" style="display: none;">
+            <div class="tabs">
+                <button class="tab active" onclick="showSubTab('physics', 'pdf')">PDF Notes</button>
+                <button class="tab" onclick="showSubTab('physics', 'questions')">Questions</button>
+                <button class="tab" onclick="showSubTab('physics', 'solutions')">Solutions</button>
+                <button class="tab" onclick="showSubTab('physics', 'videos')">Videos</button>
+                <button class="tab" onclick="showSubTab('physics', 'images')">Images</button>
+            </div>
+            <div class="content" id="physics_pdf">
+                <h2>PDF Notes</h2>
+                <a href="physics_pdf_notes.pdf" class="link" target="_blank">Download PDF</a>
+            </div>
+            <div class="content" id="physics_questions" style="display: none;">
+                <h2>Questions</h2>
+                <a href="physics_questions.pdf" class="link" target="_blank">Download Questions</a>
+            </div>
+            <div class="content" id="physics_solutions" style="display: none;">
+                <h2>Solutions</h2>
+                <a href="physics_solutions.pdf" class="link" target="_blank">Download Solutions</a>
+            </div>
+            <div class="content" id="physics_videos" style="display: none;">
+                <h2>Videos</h2>
+                <a href="physics_videos.html" class="link" target="_blank">Watch Videos</a>
+            </div>
+            <div class="content" id="physics_images" style="display: none;">
+                <h2>Images</h2>
+                <a href="physics_images.html" class="link" target="_blank">View Images</a>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
