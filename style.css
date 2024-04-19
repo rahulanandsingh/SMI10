@@ -116,3 +116,25 @@ li {
 .download-link:hover {
     color: white;
 }
+
+/* CSS styles for the footer */
+.footer {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for spacing */
+    text-align: center; /* Center the text */
+    position: fixed; /* Fixed at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Position at the bottom */
+    box-shadow: 0 0 10px neon-red, 0 0 20px neon-red; /* Neon glow */
+}
+
+/* Style the red love icon */
+.neon-red {
+    color: #FF0000; /* Red color */
+    /* Neon glow effect */
+    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF0000, 
+                 0 0 30px #FF0000, 0 0 40px #FF0000, 
+                 0 0 50px #FF0000, 0 0 75px #FF0000, 
+                 0 0 100px #FF0000;
+}
