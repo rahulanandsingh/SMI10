@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border: 2px solid #CCFF00; /* Neon yellow border */
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(31, 81, 255, 0.5);
+    box-shadow: 0 0 20px #CCFF00;
 }
 
 /* Styling the title */
