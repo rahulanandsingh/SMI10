@@ -118,21 +118,21 @@ li {
 }
 
 /* CSS styles for recommended books */
-#math_recommended-books, #physics_recommended-books {
+#maths_recommended-books, #physics_recommended-books {
     display: none; /* Hide the tab content by default */
 }
 
-#math_recommended-books, #physics_recommended-books table {
+#maths_recommended-books, #physics_recommended-books table {
     width: 100%;
     border-collapse: collapse;
 }
 
-#math_recommended-books, #physics_recommended-books table td {
+#maths_recommended-books, #physics_recommended-books table td {
     padding: 10px;
     border: 1px solid #ccc;
 }
 
-#math_recommended-books, #physics_recommended-books table img {
+#maths_recommended-books, #physics_recommended-books table img {
     max-width: 100px;
     height: auto;
 }
