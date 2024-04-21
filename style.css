@@ -152,6 +152,19 @@ li {
     height: auto;
 }
 
+.buy-button {
+    background-color: orange; /* Orange background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    /* Neon glow effect */
+    text-shadow: 0 0 10px orange, 0 0 20px orange, 
+                 0 0 30px orange, 0 0 40px orange, 
+                 0 0 50px orange, 0 0 75px orange, 
+                 0 0 100px orange;
+}
 
 
 /* CSS styles for the footer */
