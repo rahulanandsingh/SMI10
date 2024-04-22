@@ -154,6 +154,11 @@ li {
 .book-title {
     color: #c1f5fe; /* Light blue color */
 }
+.normal-text {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor on hover */
+}
 
 .buy-button {
     display: inline-block;
