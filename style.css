@@ -151,6 +151,9 @@ li {
     max-width: 100px;
     height: auto;
 }
+.book-title {
+    color: #c1f5fe; /* Light blue color */
+}
 
 .buy-button {
     display: inline-block;
