@@ -153,19 +153,17 @@ li {
 }
 
 .buy-button {
-    background-color: orange; /* Neon orange background color */
-    color: white; /* White text color */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Cursor style */
-    /* 3D effect */
-    box-shadow: 0 4px 0 #ff9900; /* Darker shadow for the bottom */
-    /* Neon glow effect */
-    text-shadow: 0 0 10px orange, 0 0 20px orange, 
-                 0 0 30px orange, 0 0 40px orange, 
-                 0 0 50px orange, 0 0 75px orange, 
-                 0 0 100px orange;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    color: 	#FF1818; /* Neon red */
+    background-color: #39ff14;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
 }
 
 
