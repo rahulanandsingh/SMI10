@@ -1,335 +1,304 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Study Materials</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="6771568_book_education_learning_puzzle_school_icon.png" type="image/png">
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1 class="title">Study Materials  ICSE X</h1>
-        <p><center>A collection by Rahul Sir</center></p>
-        <div class="main-tabs">
-            <button class="main-tab active" onclick="showMainTab('maths')">Maths</button>
-            <button class="main-tab" onclick="showMainTab('physics')">Physics</button>
+      <h1 class="title">Study Materials ICSE X</h1>
+      <p>
+        <center>A collection by Rahul Sir</center>
+      </p>
+      <div class="main-tabs">
+        <button class="main-tab active" onclick="showMainTab('maths')">Maths</button>
+        <button class="main-tab" onclick="showMainTab('physics')">Physics</button>
+      </div>
+      <div id="maths" class="subject-content" style="display: block;">
+        <div class="tabs">
+          <button class="tab active" onclick="showSubTab('maths', 'pdf')">PYQs</button>
+          <button class="tab" onclick="showSubTab('maths', 'samplepaper')">Sample Papers</button>
+          <button class="tab" onclick="showSubTab('maths', 'qna')">Q n A</button>
+          <button class="tab" onclick="showSubTab('maths', 'videos')">Videos</button>
+          <button class="tab" onclick="showSubTab('maths', 'notes')">Notes</button>
+          <button class="tab" onclick="showSubTab('maths', 'recommended-books')">Recommended Books</button>
         </div>
-        <div id="maths" class="subject-content" style="display: block;">
-            <div class="tabs">
-                <button class="tab active" onclick="showSubTab('maths', 'pdf')">PYQs</button>
-                <button class="tab" onclick="showSubTab('maths', 'samplepaper')">Sample Papers</button>
-                <button class="tab" onclick="showSubTab('maths', 'qna')">Q n A</button>
-                <button class="tab" onclick="showSubTab('maths', 'videos')">Videos</button>
-                <button class="tab" onclick="showSubTab('maths', 'notes')">Notes</button>
-                <button class="tab" onclick="showSubTab('maths', 'recommended-books')">Recommended Books</button>
-            </div>
-             <!-- Sub-tab content -->
-            <div class="content" id="maths_pdf" style="display: block;">
-                <h2>MATH PYQs</h2>
+        <!-- Sub-tab content -->
+        <div class="content" id="maths_pdf" style="display: block;">
+          <h2>MATH PYQs</h2>
+          <ul>
+            <li> 2017 <a href="MATH/PYQs/511 MAT - 2017.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2018 <a href="MATH/PYQs/511 MAT - 2018.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2019 <a href="MATH/PYQs/511 MAT1 - 2019.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2020 <a href="MATH/PYQs/511 MAT - 2020.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2023 <a href="MATH/PYQs/ICSE 2023 - 511 MAT.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2024 <a href="MATH/PYQs/ICSE 2024 MATHS.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <!-- Add more documents as needed -->
+          </ul>
+        </div>
+        <div class="content" id="maths_samplepaper" style="display: none;">
+          <h2>MATH Sample Papers</h2>
+          <ul>
+            <li> Sample Paper 1 <a href="MATH/SP/smqp1.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 2 <a href="MATH/SP/smqp2.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 3 <a href="MATH/SP/smqp3.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 4 <a href="MATH/SP/smqp4.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 5 <a href="smqp5.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 6 <a href="MATH/SP/smqp6.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 7 <a href="MATH/SP/smqp7.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 8 <a href="MATH/SP/smqp8.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 9 <a href="MATH/SP/smqp9.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 10 <a href="MATH/SP/smqp10.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <!-- Add more documents as needed -->
+          </ul>
+        </div>
+        <div class="content" id="maths_qna" style="display: none;">
+          <h2>updating soon</h2>
+          <a href="maths_solutions.pdf" class="link" target="_blank">updating soon</a>
+        </div>
+        <div class="content" id="maths_videos" style="display: none;">
+          <h2>Videos</h2>
+          <a href="maths_videos.html" class="link" target="_blank">Watch Videos</a>
+        </div>
+        <div class="content" id="maths_notes" style="display: none;">
+          <h2>updating soon</h2>
+          <a href="maths_images.html" class="link" target="_blank">updating soon</a>
+        </div>
+        <div class="content" id="maths_recommended-books" style="display: none;">
+          <h2>Math Recommended Books</h2>
+          <table>
+            <tr>
+              <td>
+                <img src="https://m.media-amazon.com/images/I/71gsWAC1pfL._SY342_.jpg" alt="Book 1">
+                <br>
+                <center>
+                  <button class="buy-button">
+                    <a href="https://amzn.to/4aGZwa5" target="_blank" class="normal-text">Buy</a>
+                  </button>
+                </center>
+              </td>
+              <td>
+                <h3 class="book-title">
+                  <a href="https://amzn.to/4aGZwa5" target="_blank" class="normal-text">Concise Mathematics for ICSE Class 10 By R.K. Bansal (2024-25 Examination)</a>
+                </h3>
+                <p>
                 <ul>
-                    <li>
-                       2017
-                        <a href="MATH/PYQs/511 MAT - 2017.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2018
-                        <a href="MATH/PYQs/511 MAT - 2018.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2019
-                        <a href="MATH/PYQs/511 MAT1 - 2019.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2020
-                        <a href="MATH/PYQs/511 MAT - 2020.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2023
-                        <a href="MATH/PYQs/ICSE 2023 - 511 MAT.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2024
-                        <a href="MATH/PYQs/ICSE 2024 MATHS.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <!-- Add more documents as needed -->
+                  <li>"Concise Mathematics for ICSE Class 10 By R.K. Bansal (2024-25 Examination)" is a paperback textbook tailored for students preparing for the ICSE Class 10 examination.</li>
+                  <li>Authored by R.K. Bansal, the book is praised for its high-quality print, ensuring clarity and readability of mathematical content.</li>
                 </ul>
-            </div>
-            <div class="content" id="maths_samplepaper" style="display: none;">
-                <h2>MATH Sample Papers</h2>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://m.media-amazon.com/images/I/51MueQGtRPL._SY342_.jpg" alt="Book 2">
+                <br>
+                <center>
+                  <button class="buy-button">
+                    <a href="https://amzn.to/3U6QPPy" target="_blank" class="normal-text">Buy</a>
+                  </button>
+                </center>
+              </td>
+              </td>
+              <td>
+                <h3 class="book-title">
+                  <a href="https://amzn.to/3U6QPPy" target="_blank" class="normal-text">Understanding Icse Mathematics Class 10 - by M. L. Aggarwal (2024-25 Examination)</a>
+                </h3>
+                <p>
                 <ul>
-                    <li>
-                       Sample Paper 1
-                        <a href="MATH/SP/smqp1.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 2
-                        <a href="MATH/SP/smqp2.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 3
-                        <a href="MATH/SP/smqp3.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 4
-                        <a href="MATH/SP/smqp4.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 5
-                        <a href="smqp5.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                     <li>
-                        Sample Paper 6
-                        <a href="MATH/SP/smqp6.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 7
-                        <a href="MATH/SP/smqp7.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 8
-                        <a href="MATH/SP/smqp8.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 9
-                        <a href="MATH/SP/smqp9.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 10
-                        <a href="MATH/SP/smqp10.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <!-- Add more documents as needed -->
+                  <li>A comprehensive resource tailored for ICSE Class 10 mathematics students, authored by M. L. Aggarwal.</li>
+                  <li>Renowned as a great book for math enthusiasts, providing in-depth coverage of essential concepts and topics.</li>
+                  <li>Filled with a plethora of challenging and engaging questions, making it ideal for students seeking to strengthen their problem-solving skills.</li>
+                  <li>Stands out as a superior choice compared to many other mathematics textbooks, offering a comprehensive and well-structured approach to learning.</li>
+                  <li>While highly praised, some reviewers note that it falls short of surpassing the Selina series, a prominent competitor in the field of ICSE mathematics textbooks.</li>
                 </ul>
-            </div>
-            <div class="content" id="maths_qna" style="display: none;">
-                <h2>updating soon</h2>
-                <a href="maths_solutions.pdf" class="link" target="_blank">updating soon</a>
-            </div>
-            <div class="content" id="maths_videos" style="display: none;">
-                <h2>Videos</h2>
-                <a href="maths_videos.html" class="link" target="_blank">Watch Videos</a>
-            </div>
-            <div class="content" id="maths_notes" style="display: none;">
-                <h2>updating soon</h2>
-                <a href="maths_images.html" class="link" target="_blank">updating soon</a>
-            </div>
-            <div class="content" id="maths_recommended-books" style="display: none;">
-            <h2>Math Recommended Books</h2>
-             <table>
-                <tr>
-                    <td>
-                           <img src="https://m.media-amazon.com/images/I/71gsWAC1pfL._SY342_.jpg" alt="Book 1">
-                           <br><center><button class="buy-button"><a href="https://amzn.to/4aGZwa5" target="_blank" class="normal-text">Buy</a></button></center></td>
-                    <td><h3 class="book-title"><a href="https://amzn.to/4aGZwa5" target="_blank" class="normal-text">Concise Mathematics for ICSE Class 10 By R.K. Bansal (2024-25 Examination)</a></h3>
-
-                        <p>
-                        <ul>
-                        <li>"Concise Mathematics for ICSE Class 10 By R.K. Bansal (2024-25 Examination)" is a paperback textbook tailored for students preparing for the ICSE Class 10 examination.</li>
-                     <li>Authored by R.K. Bansal, the book is praised for its high-quality print, ensuring clarity and readability of mathematical content.</li>
-                     </ul>    
-                    </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><img src="https://m.media-amazon.com/images/I/51MueQGtRPL._SY342_.jpg" alt="Book 2">
-                           <br><center><button class="buy-button"><a href="https://amzn.to/3U6QPPy" target="_blank" class="normal-text">Buy</a></button></center></td></td>
-                    <td>
-                        <h3 class="book-title"><a href="https://amzn.to/3U6QPPy" target="_blank" class="normal-text">Understanding Icse Mathematics Class 10 - by M. L. Aggarwal (2024-25 Examination)</a></h3>
-                        <p>
-                        <ul>
-                        <li>A comprehensive resource tailored for ICSE Class 10 mathematics students, authored by M. L. Aggarwal.</li>
-        <li>Renowned as a great book for math enthusiasts, providing in-depth coverage of essential concepts and topics.</li>
-        <li>Filled with a plethora of challenging and engaging questions, making it ideal for students seeking to strengthen their problem-solving skills.</li>
-        <li>Stands out as a superior choice compared to many other mathematics textbooks, offering a comprehensive and well-structured approach to learning.</li>
-        <li>While highly praised, some reviewers note that it falls short of surpassing the Selina series, a prominent competitor in the field of ICSE mathematics textbooks.</li>
-                        </ul> 
-                        </p>
-                    </td>
-                </tr>
-                 <tr>
-                    <td><img src="https://m.media-amazon.com/images/I/61lmKAjWZpL._SY342_.jpg" alt="Book 3">
-                           <br><center><button class="buy-button"><a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Buy</a></button></center></td></td>
-                    <td>
-                        <h3 class="book-title"><a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Nootan ICSE Mathematics Text Book for Class 10 -Academic Year 2024-25 By Madhur Gupta - Nageen Prakashan</a></h3>
-                        <p>
-                        <ul>
-                        <li>A comprehensive resource tailored for ICSE Class 10 mathematics students, authored by Madhur Gupta</li>
-        <li>Renowned as a great book for math enthusiasts, providing in-depth coverage of essential concepts and topics.</li>
-        <li>Filled with a lot of challenging and engaging questions, making it ideal for students seeking to strengthen their problem-solving skills.</li>
-                   </p>
-                    </td>
-                </tr>
-                <!-- Add more rows for additional books -->
-            </table>
-        </div>
-        </div>
-        
-        <div id="physics" class="subject-content" style="display: none;">
-            <div class="tabs">
-                <button class="tab active" onclick="showSubTab('physics', 'pdf')">PYQs</button>
-                <button class="tab" onclick="showSubTab('physics', 'samplepaper')">Sample Papers</button>
-                <button class="tab" onclick="showSubTab('physics', 'qna')">Q n A</button>
-                <button class="tab" onclick="showSubTab('physics', 'videos')">Videos</button>
-                <button class="tab" onclick="showSubTab('physics', 'notes')">Notes</button>
-                <button class="tab" onclick="showSubTab('physics', 'recommended-books')">Recommended Books</button>
-            </div>
-            <div class="content" id="physics_pdf">
-                <h2>PHYSICS PYQs</h2>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://m.media-amazon.com/images/I/61lmKAjWZpL._SY342_.jpg" alt="Book 3">
+                <br>
+                <center>
+                  <button class="buy-button">
+                    <a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Buy</a>
+                  </button>
+                </center>
+              </td>
+              </td>
+              <td>
+                <h3 class="book-title">
+                  <a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Nootan ICSE Mathematics Text Book for Class 10 -Academic Year 2024-25 By Madhur Gupta - Nageen Prakashan</a>
+                </h3>
+                <p>
                 <ul>
-                    <li>
-                       2017
-                        <a href="PHYSICS/PYQs/521 SCI 1 - 2017.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2018
-                        <a href="PHYSICS/PYQs/521SCI 1 - 2018.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2019
-                        <a href="PHYSICS/PYQs/521 SCI1 - 2019.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2020
-                        <a href="PHYSICS/PYQs/521 SCI1 - 2020.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2022
-                        <a href="PHYSICS/PYQs/icse phy 2022.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2023
-                        <a href="PHYSICS/PYQs/ICSE 2023 - 521 SCI1.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        2024
-                        <a href="PHYSICS/PYQs/ICSE - X Physics Board Paper 2024.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <!--  Add more documents as needed -->
-                </ul>
-            </div>
-            <div class="content" id="physics_samplepaper" style="display: none;">
-                <h2>PHYSICS Sample Papers</h2>
+                  <li>A comprehensive resource tailored for ICSE Class 10 mathematics students, authored by Madhur Gupta</li>
+                  <li>Renowned as a great book for math enthusiasts, providing in-depth coverage of essential concepts and topics.</li>
+                  <li>Filled with a lot of challenging and engaging questions, making it ideal for students seeking to strengthen their problem-solving skills.</li>
+                  </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://m.media-amazon.com/images/I/61lmKAjWZpL._SY342_.jpg" alt="Book 3">
+                <br>
+                <center>
+                  <button class="buy-button">
+                    <a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Buy</a>
+                  </button>
+                </center>
+              </td>
+              </td>
+              <td>
+                <h3 class="book-title">
+                  <a href="https://amzn.to/4a2L4bD" target="_blank" class="normal-text">Nootan ICSE Mathematics Text Book for Class 10 -Academic Year 2024-25 By Madhur Gupta - Nageen Prakashan</a>
+                </h3>
+                <p>
                 <ul>
-                    <li>
-                       Sample Paper 1
-                        <a href="PHYSICS/SP/spqp1.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 2
-                        <a href="PHYSICS/SP/spqp2.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 3
-                        <a href="PHYSICS/SP/spqp3.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 4
-                        <a href="PHYSICS/SP/spqp4.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 5
-                        <a href="PHYSICS/SP/spqp5.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                     <li>
-                        Sample Paper 6
-                        <a href="PHYSICS/SP/spqp6.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 7
-                        <a href="PHYSICS/SP/smqp7.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 8
-                        <a href="PHYSICS/SP/smqp8.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 9
-                        <a href="PHYSICS/SP/spqp9.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 10
-                        <a href="PHYSICS/SP/spqp10.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                     <li>
-                       Sample Paper 11
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-115-122.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 12
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-126-133.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 13
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-137-146.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 14
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-150-157.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 15
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-161-168.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                     <li>
-                        Sample Paper 16
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-172-179.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 17
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-183-190.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 18
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-194-201.pdf" class="download-link" target="_blank">Download</a>
-                    </li>   
-                    <li>
-                        Sample Paper 19
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-205-212.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <li>
-                        Sample Paper 20
-                        <a href="PHYSICS/SP/Physics ICSE Sample Papers-216-225.pdf" class="download-link" target="_blank">Download</a>
-                    </li>
-                    <!-- Add more documents as needed -->
-                </ul>
-            </div>
-            <div class="content" id="physics_qna" style="display: none;">
-                <h2>updating soon</h2>
-                <a href="physics_solutions.pdf" class="link" target="_blank">updating soon</a>
-            </div>
-            <div class="content" id="physics_videos" style="display: none;">
-                <h2>updating soon</h2>
-                <a href="physics_notes.html" class="link" target="_blank">updating soon</a>
-            </div>
-            <div class="content" id="physics_notes" style="display: none;">
-                <h2>updating soon</h2>
-                <a href="physics_images.html" class="link" target="_blank">updating soon</a>
-            </div>
-            <div class="content" id="physics_recommended-books" style="display: none;">
-            <h2>Physics Recommended Books</h2>
-            <table>
-                <tr>
-                    <td><img src="book1.jpg" alt="Book 1"></td>
-                    <td>
-                        <h3>Book 1 Title</h3>
-                        <p>Description of Book 1 goes here.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><img src="book2.jpg" alt="Book 2"></td>
-                    <td>
-                        <h3>Book 2 Title</h3>
-                        <p>Description of Book 2 goes here.</p>
-                    </td>
-                </tr>
-                <!-- Add more rows for additional books -->
-            </table>
+                  <li>A comprehensive resource tailored for ICSE Class 10 mathematics students, authored by Madhur Gupta</li>
+                  <li>Renowned as a great book for math enthusiasts, providing in-depth coverage of essential concepts and topics.</li>
+                  <li>Filled with a lot of challenging and engaging questions, making it ideal for students seeking to strengthen their problem-solving skills.</li>
+                  </p>
+              </td>
+            </tr>
+            <!-- Add more rows for additional books -->
+          </table>
         </div>
+      </div>
+      <div id="physics" class="subject-content" style="display: none;">
+        <div class="tabs">
+          <button class="tab active" onclick="showSubTab('physics', 'pdf')">PYQs</button>
+          <button class="tab" onclick="showSubTab('physics', 'samplepaper')">Sample Papers</button>
+          <button class="tab" onclick="showSubTab('physics', 'qna')">Q n A</button>
+          <button class="tab" onclick="showSubTab('physics', 'videos')">Videos</button>
+          <button class="tab" onclick="showSubTab('physics', 'notes')">Notes</button>
+          <button class="tab" onclick="showSubTab('physics', 'recommended-books')">Recommended Books</button>
         </div>
+        <div class="content" id="physics_pdf">
+          <h2>PHYSICS PYQs</h2>
+          <ul>
+            <li> 2017 <a href="PHYSICS/PYQs/521 SCI 1 - 2017.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2018 <a href="PHYSICS/PYQs/521SCI 1 - 2018.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2019 <a href="PHYSICS/PYQs/521 SCI1 - 2019.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2020 <a href="PHYSICS/PYQs/521 SCI1 - 2020.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2022 <a href="PHYSICS/PYQs/icse phy 2022.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2023 <a href="PHYSICS/PYQs/ICSE 2023 - 521 SCI1.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> 2024 <a href="PHYSICS/PYQs/ICSE - X Physics Board Paper 2024.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <!--  Add more documents as needed -->
+          </ul>
+        </div>
+        <div class="content" id="physics_samplepaper" style="display: none;">
+          <h2>PHYSICS Sample Papers</h2>
+          <ul>
+            <li> Sample Paper 1 <a href="PHYSICS/SP/spqp1.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 2 <a href="PHYSICS/SP/spqp2.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 3 <a href="PHYSICS/SP/spqp3.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 4 <a href="PHYSICS/SP/spqp4.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 5 <a href="PHYSICS/SP/spqp5.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 6 <a href="PHYSICS/SP/spqp6.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 7 <a href="PHYSICS/SP/smqp7.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 8 <a href="PHYSICS/SP/smqp8.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 9 <a href="PHYSICS/SP/spqp9.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 10 <a href="PHYSICS/SP/spqp10.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 11 <a href="PHYSICS/SP/Physics ICSE Sample Papers-115-122.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 12 <a href="PHYSICS/SP/Physics ICSE Sample Papers-126-133.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 13 <a href="PHYSICS/SP/Physics ICSE Sample Papers-137-146.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 14 <a href="PHYSICS/SP/Physics ICSE Sample Papers-150-157.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 15 <a href="PHYSICS/SP/Physics ICSE Sample Papers-161-168.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 16 <a href="PHYSICS/SP/Physics ICSE Sample Papers-172-179.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 17 <a href="PHYSICS/SP/Physics ICSE Sample Papers-183-190.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 18 <a href="PHYSICS/SP/Physics ICSE Sample Papers-194-201.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 19 <a href="PHYSICS/SP/Physics ICSE Sample Papers-205-212.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <li> Sample Paper 20 <a href="PHYSICS/SP/Physics ICSE Sample Papers-216-225.pdf" class="download-link" target="_blank">Download</a>
+            </li>
+            <!-- Add more documents as needed -->
+          </ul>
+        </div>
+        <div class="content" id="physics_qna" style="display: none;">
+          <h2>updating soon</h2>
+          <a href="physics_solutions.pdf" class="link" target="_blank">updating soon</a>
+        </div>
+        <div class="content" id="physics_videos" style="display: none;">
+          <h2>updating soon</h2>
+          <a href="physics_notes.html" class="link" target="_blank">updating soon</a>
+        </div>
+        <div class="content" id="physics_notes" style="display: none;">
+          <h2>updating soon</h2>
+          <a href="physics_images.html" class="link" target="_blank">updating soon</a>
+        </div>
+        <div class="content" id="physics_recommended-books" style="display: none;">
+          <h2>Physics Recommended Books</h2>
+          <table>
+            <tr>
+              <td>
+                <img src="book1.jpg" alt="Book 1">
+              </td>
+              <td>
+                <h3>Book 1 Title</h3>
+                <p>Description of Book 1 goes here.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="book2.jpg" alt="Book 2">
+              </td>
+              <td>
+                <h3>Book 2 Title</h3>
+                <p>Description of Book 2 goes here.</p>
+              </td>
+            </tr>
+            <!-- Add more rows for additional books -->
+          </table>
+        </div>
+      </div>
     </div>
-   <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
-        <p>Made with <span class="neon-red">&#10084;</span> by Rahul Sir</p>
+      <p>Made with <span class="neon-red">&#10084;</span> by Rahul Sir </p>
     </footer>
     <script src="script.js"></script>
-</body>
-     
+  </body>
 </html>
