@@ -49,8 +49,8 @@ window.onload = function() {
 
 // Define arrays of image URLs for different sets for each carousel
 const imageSets = [
-    ['image1.jpg', 'image2.jpg', 'image3.jpg'], // Image set for carousel 1
-    ['image4.jpg', 'image5.jpg', 'image6.jpg'], // Image set for carousel 2
+    ['https://m.media-amazon.com/images/I/71ZrWBBs8ZL._SY342_.jpg', 'https://m.media-amazon.com/images/I/71JH+5S-z7L._SY342_.jpg', 'https://m.media-amazon.com/images/I/815DS5QBwIL._SL1500_.jpg'], // Image set for carousel 1
+    ['https://m.media-amazon.com/images/I/71-l4S+1suL._SL1500_.jpg', 'https://m.media-amazon.com/images/I/81oRFCyFPJL._SL1500_.jpg', 'https://m.media-amazon.com/images/I/71DhayXFI6L._SL1500_.jpg'], // Image set for carousel 2
     // Add more arrays as needed for additional carousels
 ];
 
