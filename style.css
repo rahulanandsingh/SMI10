@@ -173,7 +173,36 @@ li {
     transition: background-color 0.3s;
 
 }
+/**carousel for image books**/
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
+.carousel img {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.carousel img.active {
+    transform: translateX(0);
+}
+
+.carousel img.next {
+    transform: translateX(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel img.prev {
+    transform: translateX(-100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 /* CSS styles for the footer */
