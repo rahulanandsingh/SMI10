@@ -174,12 +174,19 @@ li {
 
 }
 /**carousel for image books**/
-.carousel {
+.carousel1,
+.carousel2,
+.carousel3,
+/* Add more classes for additional columns */
     width: 100%;
     position: relative;
 }
 
-.carousel img {
+.carousel1 img,
+.carousel2 img,
+.carousel3 img,
+/* Add more classes for additional columns */
+{
     width: 100%;
     display: block;
     position: absolute;
@@ -189,7 +196,11 @@ li {
     transition: opacity 0.5s ease; /* Add transition for opacity */
 }
 
-.carousel img.active {
+.carousel1 img.active,
+.carousel2 img.active,
+.carousel3 img.active,
+/* Add more classes for additional columns */
+{
     opacity: 1; /* Show active image */
 }
 
