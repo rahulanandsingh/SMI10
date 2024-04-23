@@ -47,19 +47,30 @@ window.onload = function() {
 
 // image carousel books
 
-const images = document.querySelectorAll('.carousel img');
-let currentIndex = 0;
+// Define arrays of image URLs for different sets for each carousel
+const imageSets = [
+    ['image1.jpg', 'image2.jpg', 'image3.jpg'], // Image set for carousel 1
+    ['image4.jpg', 'image5.jpg', 'image6.jpg'], // Image set for carousel 2
+    // Add more arrays as needed for additional carousels
+];
 
-function showNextImage() {
-    const nextIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.remove('active');
-    images[nextIndex].classList.add('active', 'next');
-    setTimeout(() => {
-        images[currentIndex].classList.remove('next');
-        currentIndex = nextIndex;
-    }, 500);
+// Select all carousel containers
+const carousels = document.querySelectorAll('.carousel');
+
+// Function to load images into a carousel
+function loadImages(carousel, imageSet) {
+    carousel.innerHTML = ''; // Clear existing images
+    imageSet.forEach(imageUrl => {
+        const img = document.createElement('img');
+        img.src = imageUrl;
+        carousel.appendChild(img);
+    });
 }
 
-setInterval(showNextImage, 2000); // Change image every 2 seconds
+// Loop through each carousel and load images into it
+carousels.forEach((carousel, index) => {
+    loadImages(carousel, imageSets[index]); // Load images corresponding to the index
+});
+
 
 
