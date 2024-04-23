@@ -44,3 +44,22 @@ window.onload = function() {
     showMainTab('maths');
     showSubTab('maths', 'pdf');
 };
+
+// image carousel books
+
+const images = document.querySelectorAll('.carousel img');
+let currentIndex = 0;
+
+function showNextImage() {
+    const nextIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.remove('active');
+    images[nextIndex].classList.add('active', 'next');
+    setTimeout(() => {
+        images[currentIndex].classList.remove('next');
+        images[nextIndex].classList.remove('next');
+        currentIndex = nextIndex;
+    }, 500);
+}
+
+setInterval(showNextImage, 1000); // Change image every 1 seconds
+
