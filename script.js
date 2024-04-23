@@ -56,10 +56,10 @@ function showNextImage() {
     images[nextIndex].classList.add('active', 'next');
     setTimeout(() => {
         images[currentIndex].classList.remove('next');
-        images[nextIndex].classList.remove('next');
         currentIndex = nextIndex;
     }, 500);
 }
 
-setInterval(showNextImage, 1000); // Change image every 1 seconds
+setInterval(showNextImage, 2000); // Change image every 2 seconds
+
 
