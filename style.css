@@ -176,33 +176,30 @@ li {
 /**carousel for image books**/
 .carousel {
     width: 100%;
-    overflow: hidden;
     position: relative;
 }
 
 .carousel img {
     width: 100%;
     display: block;
-    transition: transform 0.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially hide images */
+    transition: opacity 0.5s ease; /* Add transition for opacity */
 }
 
 .carousel img.active {
-    transform: translateX(0);
+    opacity: 1; /* Show active image */
 }
 
-.carousel img.next {
-    transform: translateX(100%);
-    position: absolute;
-    top: 0;
-    left: 0;
+.buy-button-container {
+    text-align: center;
+    margin-top: 150px; /* Adjust as needed */
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set a higher z-index to bring it forward */
 }
 
-.carousel img.prev {
-    transform: translateX(-100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 
 /* CSS styles for the footer */
