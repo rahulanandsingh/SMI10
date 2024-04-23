@@ -193,6 +193,26 @@ li {
     opacity: 1; /* Show active image */
 }
 
+
+.carousel1 {
+    width: 100%;
+    position: relative;
+}
+
+.carousel1 img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Initially hide images */
+    transition: opacity 0.5s ease; /* Add transition for opacity */
+}
+
+.carousel1 img.active {
+    opacity: 1; /* Show active image */
+}
+
 .buy-button-container {
     text-align: center;
     margin-top: 150px; /* Adjust as needed */
