@@ -45,32 +45,5 @@ window.onload = function() {
     showSubTab('maths', 'pdf');
 };
 
-// image carousel books
-
-// Define arrays of image URLs for different sets for each carousel
-const imageSets = [
-    ['https://m.media-amazon.com/images/I/71ZrWBBs8ZL._SY342_.jpg', 'https://m.media-amazon.com/images/I/71JH+5S-z7L._SY342_.jpg', 'https://m.media-amazon.com/images/I/815DS5QBwIL._SL1500_.jpg'], // Image set for carousel 1
-    ['https://m.media-amazon.com/images/I/71-l4S+1suL._SL1500_.jpg', 'https://m.media-amazon.com/images/I/81oRFCyFPJL._SL1500_.jpg', 'https://m.media-amazon.com/images/I/71DhayXFI6L._SL1500_.jpg'], // Image set for carousel 2
-    // Add more arrays as needed for additional carousels
-];
-
-// Select all carousel containers
-const carousels = document.querySelectorAll('.carousel');
-
-// Function to load images into a carousel
-function loadImages(carousel, imageSet) {
-    carousel.innerHTML = ''; // Clear existing images
-    imageSet.forEach(imageUrl => {
-        const img = document.createElement('img');
-        img.src = imageUrl;
-        carousel.appendChild(img);
-    });
-}
-
-// Loop through each carousel and load images into it
-carousels.forEach((carousel, index) => {
-    loadImages(carousel, imageSets[index]); // Load images corresponding to the index
-});
-
 
 
