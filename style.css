@@ -178,7 +178,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 0px; /* Adjust as needed */
     position: relative; /* Set position to relative */
     z-index: 1; /* Set a higher z-index to bring it forward */
 }
